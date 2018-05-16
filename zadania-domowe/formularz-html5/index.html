@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>1-formularz-html5</title>
+</head>
+
+<body>
+    <section id="formularz">
+        <h2>Zgłoszenie na kurs programowania</h2>
+        <form action="https://formspree.io/karol.wawer.pl@gmail.com" method="POST">
+
+            <label for="name">Imię :</label>
+            <input type="text" name="name" id="name" required><br><br>
+
+            <label for="lastname">Nazwisko :</label>
+            <input type="text" name="lastname" id="lastname" required><br><br>
+
+            <label for="mail">E-mail :</label>
+            <input type="email" name="mail" id="mail" required><br><br>
+
+            <label for="phone">Telefon :</label>
+            <input type="tel" name="phone" id="phone" required><br><br>
+
+            <label for="town">Miasto :</label>
+            <select name="town" id="town">
+            <option value="Warszawa" selected>Warszawa</option>
+            <option value="Kraków">Kraków</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select>
+
+            <p>Płeć :</p>
+            <label for="male">Mężczyzna</label>
+            <input type="radio" name="gender" id="male" checked><br><br>
+            <label for="female">Kobieta</label>
+            <input type="radio" name="gender" id="female"><br><br>
+            <label for="other">Inna</label>
+            <input type="radio" name="gender" id="other"><br><br>
+
+            <p>Zgoda na przetważanie danych osobowych</p>
+            <label for="agree">Wyrażam zgodę</label>
+            <input type="checkbox" name="agree" id="agree" checked><br><br>
+
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="proszę wpisać wiadomość" required></textarea>
+
+            <input type="submit" name="submit" value="Wyślij">
+
+        </form>
+    </section>
+</body>
+
+</html>
