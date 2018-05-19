@@ -15,7 +15,7 @@ body{
         background-size: cover;
         position: relative;
         height: 100vh;
-        padding-left: 20vh;
+        padding-left: 10px;
     }
     header#main-header #header-title h3 {
         font-size: 4vh;
@@ -30,16 +30,18 @@ body{
     header#main-header #header-title {
         position: absolute;
         top: 0;
-        transform: translateX(100%);
+        right:0;
         color: #FFF;
         width: 100vh;
         text-align: left;
+        
     }
     header#main-header {
         background-image: url(../img/man-2.jpg);
         background-size: cover;
         height: 70vh;
-        padding: 10vh;
+        position: relative;
+      
     }
     header#main-header #header-title h3 {
         font-size: 4vh;
