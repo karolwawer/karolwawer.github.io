@@ -28,7 +28,7 @@ body {
     -moz-appearance: none;
     -ms-appearance: none;
     appearance: none;
-    margin-left: 60px;
+    margin:10px 10px 10px 60px;
 }
 
 #main #form-main input[type="number"] {
