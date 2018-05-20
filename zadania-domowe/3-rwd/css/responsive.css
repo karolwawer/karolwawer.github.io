@@ -45,10 +45,12 @@ body{
     }
     header#main-header #header-title h3 {
         font-size: 4vh;
+        margin-left:10vh
     }
     header#main-header #header-title p {
         font-size: 6vh;
         font-weight: 800;
+        margin-left:10vh
     }
 }
 
