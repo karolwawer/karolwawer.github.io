@@ -1,0 +1,27 @@
+body{
+    padding:0;
+}
+#image{
+    width:900px;
+    height: 300px;
+    padding:10px;
+    margin:auto;
+    text-align: center;
+    position:relative;
+   
+}
+#image img{
+    height: 100%;
+    
+
+}
+h2{
+   position: absolute;
+    left:0;
+    right:0;
+        font-size: 1;
+    background-color: rgba(1,1,1,0.3);
+    display: block;
+    width: auto;
+    
+}
