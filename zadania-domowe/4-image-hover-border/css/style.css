@@ -7,21 +7,23 @@ body{
     padding:10px;
     margin:auto;
     text-align: center;
-    position:relative;
+    position:relative
    
 }
 #image img{
     height: 100%;
+    width: 100%;
+    ;
     
 
 }
-h2{
-   position: absolute;
+#image h2{
+    position: absolute;
+    width:100%;
     left:0;
-    right:0;
-        font-size: 1;
-    background-color: rgba(1,1,1,0.3);
-    display: block;
-    width: auto;
-    
+    right: 0;
+    background-color: rgba(1,1,1,1);
+    color: white;
+    top:50%;
+   
 }
