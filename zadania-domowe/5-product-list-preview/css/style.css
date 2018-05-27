@@ -4,6 +4,7 @@
 
 body {
     padding: 0;
+    background-color: #98fb98;
 }
 .clear{
     clear: both;
@@ -13,7 +14,7 @@ body {
     
     height: auto;
     margin: auto;
-    background-color: #98fb98;
+    
     
 }
 
@@ -28,13 +29,13 @@ body {
 }
 #cart .product .mask {
     height: 100%;
-    background-color: #ff6f00;
+    background-color: rgba(255, 111, 0, 0.6);
     opacity: 0;
     transition: all 1s;
 }
 
 #cart .product .mask:hover {
-    opacity: 0.7;
+    opacity: 1;
 }
 
 #cart .product .mask .icon {
@@ -49,8 +50,10 @@ body {
 
 #cart .product .mask .icon a {
     text-decoration: none;
-    color: white;
     font-size: 20px;
+}
+#cart .product .mask .icon a i {
+    color: rgb(255, 255, 255);
 }
 
 #cart #item1 {
