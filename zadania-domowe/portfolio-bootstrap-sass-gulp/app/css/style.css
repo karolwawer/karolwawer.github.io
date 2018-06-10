@@ -28,7 +28,8 @@ button,
   #main-nav.scrolled {
     background-color: rgba(14, 216, 214, 0.48); }
   #main-nav ul {
-    margin-left: auto; }
+    margin-left: auto;
+    text-align: right; }
   #main-nav a {
     color: white; }
 
