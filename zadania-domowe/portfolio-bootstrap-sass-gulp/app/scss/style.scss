@@ -14,8 +14,7 @@ button,
     text-transform: uppercase;
     transition: all 0.4s;
     font-family: 'Montserrat', sans-serif;
-    &button:hover,
-    .btn:hover {
+    &:hover {
         background-color: #fff;
         color: #0ed8d6;
     }
@@ -82,7 +81,7 @@ button,
         line-height: 80px;
         font-size: 30px;
         transition: all 0.4s;
-        &.fas:hover {
+        &:hover {
             transform: rotate(360deg);
             background-color: white;
             color: #0ed8d6;
@@ -116,7 +115,7 @@ button,
                 background-size: cover;
                 background-repeat: no-repeat;
                 transition: all 0.4s;
-                &.background:hover {
+                &:hover {
                     transform: scale(1.5);
                     .mask {
                         opacity: 1;
