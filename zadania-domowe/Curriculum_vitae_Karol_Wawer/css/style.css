@@ -1,0 +1,368 @@
+body{
+    background-color: black;
+    color: white;
+}
+header {
+    height: 100vh;
+}
+header .header-background{
+    background-image:url(../img/laptop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+}
+.quater-background{
+    height: 150px;
+}
+
+/*nav*/
+
+header .main-nav {
+    background-color: rgba(206, 206, 92, 0.47);
+}
+nav button span i{
+    color:gold;
+}
+nav a.dev {
+    color: gold;
+}
+header li a{
+    color:white;
+}
+header li a:hover {
+    background-color: rgba(255, 215, 0, 0.25);
+    color:black;
+}
+.drp-menu{
+    background-color: rgba(206, 206, 92, 0.47);
+
+}
+.drp-menu a:hover {
+    background-color: rgba(255, 215, 0, 0.25);    
+
+}
+.drp-menu a{
+    color: white;
+}
+
+/*moved title*/
+
+  .affix {
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 9999 !important;
+      position:fixed;
+
+  }
+.affixText{
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.stickText{
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    transform: translateY(70%);    
+}
+#creator{
+    color:gold;
+    margin-top:10vh;
+}
+/*sekcja about*/
+
+#about{
+    position: relative;
+}
+h1, h2{
+    color: gold;
+    font-weight: 600;
+}
+
+#about .foto{
+    background-image: url(../img/Karol.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+#about .aboutMe p{
+    margin-top: 25px;
+}
+/*media*/
+
+.media{
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.media .media-round {
+    border-radius: 50%;
+    background-color: black;
+    width:50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 5px;
+    transition: all 0.4s;
+    border: 1.5px solid gold;
+    margin:15px;
+    
+}
+.media .media-round:hover {
+    transform: rotate(360deg);
+    background-color: gold;
+}
+.media .media-round a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+/*timelaps*/
+#timelaps{
+    margin: 50px 0;
+}
+.column-1-3 {
+    width:33%;
+    height: 50vh;
+    display: inline-block;
+    float: left;
+    transition:all 0.4s;
+    font-size: 3vh;
+    
+}
+.column-1-3:hover{
+    width: 50%;
+    font-size: 5vh;
+    
+}
+.background{
+    height: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    color:black;
+    
+}
+.background span {
+    color:gold;
+}
+a, a:hover {
+    text-decoration: none;
+}
+.background .timelaps-title{
+    height: 50%;
+    margin:auto;
+    transform: translateY(50%);
+}
+.containerTimelaps{
+    overflow: hidden;
+}
+.containerTimelaps:hover .column-1-3:not(:hover) {
+    width: 20%;
+}
+#background-1 {
+    background-image: url(../img/fogg.jpg);
+        
+}
+#background-2 {
+    background-image: url(../img/sun.jpg);
+}
+#background-3 {
+    background-image: url(../img/stars.jpg);
+}
+/*contact*/
+
+#contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/mailbox.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFF;
+    padding: 40px;
+    width:100%;
+    height: 50%;
+}
+#contact .container h2 {
+    color: gold;
+}
+
+#contact .flexed {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#contact .spaceMargin{
+    margin-top: 10px;
+}
+
+#contact textarea {
+    height: 200px;
+    justify-content: space-between;
+}
+#contact button,
+.btn {
+    background-color: gold;
+    border: 1px solid gold;
+    color: #FFF;
+    text-transform: uppercase;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+}
+
+#contact button:hover,
+.btn:hover {
+    background-color: #FFF;
+    color: gold;
+}
+/* footer */
+
+footer {
+    line-height: 65px;
+}
+
+/*past*/
+
+.logos {
+    height: 15vh;
+    width: 30vh;
+    
+}
+.history {
+    margin: 30px 0;
+}
+/*present*/
+
+.akademia {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+#skills{
+    margin: 10px 0 50px 0;
+}
+/*technology*/
+
+#technology {
+    background-image: url(https://media.giphy.com/media/zW0n7AIWG4ka4/giphy.gif);
+    background-position: center;
+    background-repeat: repeat;
+}
+#technology .content {
+    background-color: black;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    color:white;
+    border: 1px solid gold;
+}
+#technology .content .overflow {
+    height: 350px;
+    overflow: hidden;
+    padding:5px;
+}
+#technology .content .overflow .background {
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 0.4s;
+    
+    
+}
+#technology .content .overflow .background:hover {
+    transform: scale(1.5);
+}
+#technology .content .overflow .background:hover .mask{
+    opacity:1;
+    
+}
+#technology .content .overflow .background .mask{
+    background: rgba(167, 143, 17, 0.42);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    opacity:0;
+    transition: all 0.4s;
+    flex-wrap: wrap;
+    padding: 70px;
+}
+
+#technology-img0{
+    background-image: url(../img/html5.png);
+    
+}
+#technology-img1{
+    background-image: url(../img/css3.png);
+}
+#technology-img2{
+    background-image: url(../img/javascript.png);
+}
+#technology-img3{
+    background-image: url(../img/jquery_logo.png);
+}
+#technology-img4{
+    background-image: url(../img/wordpress.png);
+}
+#technology-img5{
+    background-image: url(../img/ajax.png);
+}
+#technology-img6{
+    background-image: url(../img/bootstrap_logo.png);
+}
+#technology-img7{
+    background-image: url(../img/sass_logo.png);
+}
+#technology-img8{
+    background-image: url(../img/git_logo.png);
+}
+#portfolio{
+    margin: 30px 0;
+}
+/*future*/
+#future{
+    height: 600px;
+    margin-bottom: 40px;
+}
+.future-background{
+    height: 100%;
+    width:100%;
+    background-image: url(../img/future.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.future-container{
+    height: 90%;
+padding-top:25px;
+    }
+
+.cel1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+        
+    
+}
