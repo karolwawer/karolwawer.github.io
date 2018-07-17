@@ -1,0 +1,43 @@
+@media (max-width:1170px) {
+    nav#main-menu ul {
+        display: none;
+    }
+    nav#main-menu label {
+        display: block;
+        text-align: right;
+        color: #1ac056;
+        margin-right: 10px;
+        line-height: 30px;
+    }
+
+    #rwdmenu:checked + ul {
+        display: block;
+    }
+    @media (max-width: 992px) {
+        section#about .about-inner {
+            width: 50%;
+        }
+        section#about .about-inner img {
+            width: 90%;
+        }
+
+        section#portfolio .picks {
+            width: 100%;
+        }
+
+        section#contact .contact-inner {
+            width: 100%;
+            text-align: center;
+        }
+        section#contact .contact-inner address a {
+            line-height: 100px;
+        }
+    }
+    @media (max-width: 640px) {
+        section#about .about-inner {
+            width: 100%;
+        }
+        section#about .about-inner img {
+            width: 100%;
+        }
+    }
