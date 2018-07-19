@@ -202,6 +202,9 @@ a, a:hover {
     color: gold;
 }
 
+#contact .container h3 {
+    font-size: 1em;
+}
 #contact .flexed {
     display: flex;
     flex-direction: column;
@@ -341,7 +344,6 @@ footer {
 }
 /*future*/
 #future{
-    height: 600px;
     margin-bottom: 40px;
 }
 .future-background{
@@ -355,8 +357,8 @@ footer {
 
 .future-container{
     height: 90%;
-padding-top:25px;
-    }
+    padding: 40px;    
+}
 
 .cel1 {
     display: flex;
