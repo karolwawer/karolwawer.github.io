@@ -16,8 +16,6 @@ $(document).ready(function () {
         var scrollValue = $(window).scrollTop();
         var navHeight = $('.quater-background').outerHeight();
         var sectionHeight = $('header').outerHeight()-102;
-        console.log(sectionHeight);
-        console.log(scrollValue);
         if (scrollValue > sectionHeight) {
             $('.titleWeb').removeClass('affixText');
             $('.titleWeb').addClass('stickText');
