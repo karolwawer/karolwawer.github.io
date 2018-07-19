@@ -289,10 +289,10 @@ footer {
     
     
 }
-#technology .content .overflow .background:hover {
+#technology .content .overflow .background:hover, #technology .content .overflow .background:focus{
     transform: scale(1.5);
 }
-#technology .content .overflow .background:hover .mask{
+#technology .content .overflow .background:hover .mask, #technology .content .overflow .background:focus .mask{
     opacity:1;
     
 }
