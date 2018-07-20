@@ -7,3 +7,11 @@ and (max-device-width : 667px) {
 #technology .content .overflow .background .mask{
     opacity:1;
 }
+
+    @media all min-device-width: 668px{
+        #technology .content .overflow .background:hover{
+    transform: scale(1.5);
+}
+#technology .content .overflow .background:hover .mask{
+    opacity:1;
+    }
