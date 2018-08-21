@@ -1,0 +1,37 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) ,url(../img/bitcoin-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+   
+}
+
+h2,h3 {
+    color: gold;
+}
+
+.main header{
+    margin:50px 0;
+}
+
+.main header p{
+    font-size: 1em;
+}
+
+i{
+    font-size: 2em;
+}
+
+.fa-arrow-up {
+    color: greenyellow;
+}
+
+.fa-arrow-down {
+    color: red;
+}
+
+.fa-minus-square {
+    color: yellow;
+}
